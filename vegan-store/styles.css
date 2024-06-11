@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    position: sticky;
+}
+#logo{
+    width: 40px;
+}
+nav{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+    display: block;
+}
+.drop-wrapper{
+    display: flex;
+    border: red 2px solid;
+    
+}
+#dropdowm{
+    font-family: 'Poppins', sans-serif;
+    border-top: 2px solid rgb(170,210,54);
+    background-color: white;
+    box-shadow: 0 2px 5px #ccc;
+    display: block;
+    position: absolute;
+    
+}
+header button{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(170,210,54);
+    padding: 9px 34px;
+    border-radius: 4px;
+    border: none;
+}
